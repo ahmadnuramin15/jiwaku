@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+                background-color: #262626;
+            }
+            p {
+                background: url(nay.jpg);
+                line-height: 10px;
+                font-size: 10px;
+                background-size: cover;
+                hyphens: auto;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: rgba(255,255,255,0);
+                background-repeat: no-repeat;
+                background-position: top;
+            }
+        </style>
+    </head>
+    <body>
+        <p id="t"></p>
+        <script>
+            let s = "مَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّد. "
+            document.getElementById("t").innerHTML = s.repeat(1500)
+        </script>
+    </body>
+</html>
